@@ -1,0 +1,9 @@
+#survey-form {
+    width: 800px;
+    max-width: 100%;
+    margin: 1rem auto;
+}
+
+#survey-form input {
+    display: block;
+}

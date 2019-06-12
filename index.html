@@ -24,6 +24,22 @@
             <label for="number" id="number-label">Experience</label>
             <input type="number" name="experience" id="number" placeholder="Years of experience" min="1" max="50" required>
         </div>
+        <div class="form-field">
+          <label for="dropdown">Main Language</label>
+          <select name="main-language" id="dropdown">
+            <option value="js">Javascript</option>
+            <option value="java">Java</option>
+            <option value="python">Python</option>
+            <option value="ruby">Ruby</option>
+          </select>
+        </div>
+        <div class="form-field radio-field">
+          <input type="radio" name="gender" value="male"> Male<br>
+          <input type="radio" name="gender" value="female"> Female<br>
+          <input type="radio" name="gender" value="male"> Trans Man<br>
+          <input type="radio" name="gender" value="female"> Trans Woman<br>
+          <input type="radio" name="gender" value="other"> Never mind
+        </div>
       </form>
     <script  src="js/index.js"></script>
   </body>

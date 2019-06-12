@@ -51,3 +51,25 @@ input:focus {
     outline: none;
     border-bottom: 2px solid black; 
 }
+
+textarea, #submit, .outside-label {
+    margin-left: 25%;
+}
+
+.outside-label {
+    margin-top: 2rem;
+}
+
+textarea {
+    width: 75%;
+}
+
+button {
+    display: block;
+    width: 75%;
+    margin-top: .5rem;
+    padding: .5rem 2rem;
+    font-size: 1.25rem;
+    background: green;
+    color: white;
+}
